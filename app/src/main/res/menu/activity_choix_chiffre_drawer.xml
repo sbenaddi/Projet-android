@@ -19,7 +19,7 @@
 
         <item
             android:id="@+id/nav_jouer"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/icon_jeu"
             android:title="Jouer" />
 
         <item

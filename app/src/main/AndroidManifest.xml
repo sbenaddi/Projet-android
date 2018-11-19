@@ -74,6 +74,10 @@
         <activity
             android:name=".Histoires"
             android:label="@string/title_activity_histoires"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Jouer"
+            android:label="@string/title_activity_jouer"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

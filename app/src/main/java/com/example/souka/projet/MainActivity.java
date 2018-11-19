@@ -140,29 +140,13 @@ public class MainActivity extends AppCompatActivity
                 startActivity(intent);
                 break;
             case R.id.nav_jouer:
-                intent = new Intent(MainActivity.this, Photos.class);
+                intent = new Intent(MainActivity.this, Jouer.class);
                 startActivity(intent);
                 break;
         }
         return true;
     }
 
-    private File createImageFile() throws IOException {
-        String timeStamp =
-                new SimpleDateFormat("yyyyMMdd_HHmmss",
-                        Locale.getDefault()).format(new Date());
-        String imageFileName = "IMG_" + timeStamp + "_";
-        File storageDir =
-                getExternalFilesDir(Environment.DIRECTORY_PICTURES);
-        File image = File.createTempFile(
-                imageFileName,  /* prefix */
-                ".jpg",         /* suffix */
-                storageDir      /* directory */
-        );
-
-        imageFilePath = image.getAbsolutePath();
-        return image;
-    }
 
 
 }
