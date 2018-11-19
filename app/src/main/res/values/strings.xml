@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Projet</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_app_chiffre">App_chiffre</string>
+    <string name="title_activity_test">test</string>
+    <string name="title_activity_main_alphabet">MainAlphabet</string>
+    <string name="title_activity_choix_chiffre">ChoixChiffre</string>
+    <string name="title_activity_choix">Choix</string>
+    <string name="title_activity_alphabet">Alphabet</string>
+    <string name="title_activity_chiffre">Chiffre</string>
+    <string name="title_activity_video_alphabet">VideoAlphabet</string>
+    <string name="title_activity_video_chiffre">VideoChiffre</string>
+    <string name="title_activity_jouer">Jouer</string>
+    <string name="title_activity_test_jouer">TestJouer</string>
+    <string name="title_activity_photos">Photos</string>
+    <string name="title_activity_histoires">Histoires</string>
+</resources>

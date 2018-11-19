@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    android:background="@drawable/fondecran">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_apprendre_alphabet"
+            android:icon="@drawable/ic_alphabets"
+            android:title="Apprendre l'alphabet" />
+
+        <item
+            android:id="@+id/nav_apprendre_chiffres"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Apprendre les chiffres" />
+
+
+        <item
+            android:id="@+id/nav_jouer"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Jouer" />
+
+        <item
+            android:id="@+id/nav_prendre_photo"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Prendre une photo" />
+
+        <item
+            android:id="@+id/nav_voir_videos"
+            android:icon="@drawable/ic_videos"
+            android:title="Voir les vidéos" />
+
+    </group>
+
+</menu>
